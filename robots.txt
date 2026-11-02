@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-DOMAIN/sitemap.xml
+Sitemap: https://karabo-radebe.github.io/WEDE5020_Part1/sitemap.xml
