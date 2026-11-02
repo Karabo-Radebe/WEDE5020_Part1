@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://YOUR-DOMAIN/home.html</loc>
+        <loc>https://karabo-radebe.github.io/WEDE5020_Part1/</loc>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/about.html</loc>
+        <loc>https://karabo-radebe.github.io/WEDE5020_Part1/about.html</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/services.html</loc>
+        <loc>https://karabo-radebe.github.io/WEDE5020_Part1/services.html</loc>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/projects.html</loc>
+        <loc>https://karabo-radebe.github.io/WEDE5020_Part1/projects.html</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/contact.html</loc>
+        <loc>https://karabo-radebe.github.io/WEDE5020_Part1/contact.html</loc>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/enquiry.html</loc>
+        <loc>https://karabo-radebe.github.io/WEDE5020_Part1/enquiry.html</loc>
         <priority>0.7</priority>
     </url>
 
