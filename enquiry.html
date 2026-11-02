@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Submit a construction project enquiry to Moja Constructions. Request information about residential building, commercial construction and renovations.">
+
+        <meta name="keywords" content="construction enquiry, building quotation, residential construction enquiry, commercial construction enquiry, Moja Constructions">
+
+        <meta name="author" content="Moja Constructions">
+        <meta name="robots" content="index, follow">
+
+        <title>Project Enquiry | Moja Constructions South Africa</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+
+    <header>
+        <p class="site-name">Moja Constructions</p>
+        <p>Building South Africa's future with quality and care.</p>
+
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Project Enquiry</h1>
+        <p>Tell us about your construction project and the
+        services you require.</p>
+
+        <form id="enquiryForm"
+            action="https://formspree.io/f/maeelwbz"
+            method="POST"
+            novalidate>
+
+            <p>
+                <label for="enquiryName">Full Name:</label><br>
+                <input type="text" id="enquiryName" name="name" required>
+            </p>
+
+            <p>
+                <label for="enquiryEmail">Email Address:</label><br>
+                <input type="email" id="enquiryEmail" name="email" required>
+            </p>
+
+            <p>
+                <label for="enquiryPhone">Phone Number:</label><br>
+                <input type="tel" id="enquiryPhone" name="phone" required>
+            </p>
+
+            <p>
+                <label for="enquiryService">Service Required:</label><br>
+                <select id="enquiryService" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="Residential Construction">
+                        Residential Construction
+                    </option>
+                    <option value="Commercial Construction">
+                        Commercial Construction
+                    </option>
+                    <option value="Renovations and Alterations">
+                        Renovations and Alterations
+                    </option>
+                    <option value="Project Support">
+                        Project Support
+                    </option>
+                </select>
+            </p>
+
+            <p>
+                <label for="enquiryMessage">Project Details:</label><br>
+                <textarea id="enquiryMessage" name="message" rows="6" required></textarea>
+            </p>
+
+            <p>
+                <button type="submit">Submit Enquiry</button>
+            </p>
+
+        </form>
+
+        <p id="enquiryResponse" role="status" aria-live="polite"></p>
+    </main>
+
+    <footer>&copy;ST10520550#DISD1_Moja_constructions</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

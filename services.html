@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Services | Moja Constructions</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Explore Moja Constructions services, including residential building, commercial construction, renovations and project support in South Africa.">
+
+        <meta name="keywords" content="construction services, residential construction, commercial building, renovations, building contractors South Africa">
+
+        <meta name="author" content="Moja Constructions">
+        <meta name="robots" content="index, follow">
+
+        <title>Construction Services | Moja Constructions</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 <body>
     <header>
-        <h1>Moja Constructions</h1>
+        <p class="site-name">Moja Constructions</p>
         <p>Building South Africa's future with quality and care.</p>
 
         <nav>
@@ -17,11 +26,12 @@
             <a href="services.html">Services</a> |
             <a href="projects.html">Projects</a> |
             <a href="contact.html">Contact</a>
+            <a href="enquiry.html">Enquiry</a>
         </nav>
     </header>
 
     <main>
-        <h2>Our Construction Services</h2>
+        <h1>Our Construction Services</h1>
         <p>Moja Constructions provides a range of construction-related services for different types of clients and projects.</p>
         
         <div class="map">
@@ -46,8 +56,65 @@
 
     <h3>Project Support</h3>
     <p>Practical construction planning and coordination to help projects move from an initial idea to a completed structure.</p>
+    
+    <section class="service-search">
+        <h2>Find a Construction Service</h2>
+        <p>Search through our available construction services.</p>
+
+        <label for="searchService">Search Services:</label>
+        <input
+            type="search"
+            id="searchService"
+            placeholder="e.g. renovation, residential"
+        >
+
+        <div id="serviceResults"></div>
+
+        <p id="noResults" hidden>
+            No services found. Please try another search.
+        </p>
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about our construction services.</p>
+
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                What construction services do you offer?
+                <span aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+                <p>We offer residential construction, commercial construction,
+                renovations, alterations and project support.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Can I request a construction quotation?
+                <span aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+                <p>Yes. You can contact us to discuss your project requirements
+                and request more information about a quotation.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Do you handle renovations?
+                <span aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+                <p>Yes. We provide renovation and alteration services
+                for existing buildings.</p>
+            </div>
+        </div>
+</section>
     </main>
 
     <footer>&copy;ST10520550#DISD1_Moja_constructions</footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
